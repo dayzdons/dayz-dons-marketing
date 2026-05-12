@@ -3,7 +3,7 @@ export function Footer() {
     <footer className="border-t border-[var(--color-border)] bg-[#0a0a0b] py-14">
       <div className="mx-auto flex max-w-6xl flex-col gap-12 px-4 sm:px-6 lg:flex-row lg:justify-between lg:px-8">
         <div className="max-w-sm">
-          <span className="text-lg font-extrabold tracking-tight text-[var(--color-primary)]">DAYZ DONS</span>
+          <img src="/logo.png" alt="DayZ Dons" className="h-8 w-auto" />
           <p className="mt-4 text-sm leading-relaxed text-[var(--color-text-secondary)]">
             A premium DayZ community with PVP+PVE gameplay, custom economy, Discord bot integration, and an active player base on PlayStation.
           </p>

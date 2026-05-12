@@ -30,7 +30,7 @@ export function MarketingNav() {
     <header className="sticky top-0 z-[100] bg-[var(--color-bg)]/90 backdrop-blur-xl border-b border-[var(--color-border)]">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-2 rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-ring)]">
-          <span className="text-lg font-extrabold tracking-tight text-[var(--color-primary)]">DAYZ DONS</span>
+          <img src="/logo.png" alt="DayZ Dons" className="h-8 w-auto" />
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Primary">
